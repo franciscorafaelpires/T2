@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F8F8; /* Soft off-white background */
+  color: #333; /* Dark grey text for professionalism */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+  padding: 25px;
+  border: none; /* Remove default border */
+}
+
+.btn-primary {
+  background-color: #64B5F6; /* Soft blue primary button */
+  border-color: #64B5F6;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-primary:hover {
+  background-color: #42A5F5; /* Slightly darker blue on hover */
+  border-color: #42A5F5;
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+.btn-danger {
+  background-color: #FF8A65; /* Light orange for danger/delete, fun accent */
+  border-color: #FF8A65;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #FF7043; /* Darker orange on hover */
+  border-color: #FF7043;
+  transform: translateY(-2px);
+}
+
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  padding: 15px 0; /* More padding for a substantial feel */
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #333 !important;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Space for a potential logo/icon */
+}
+
+.nav-link {
+  color: #555 !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #64B5F6 !important; /* Highlight on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444; /* Slightly darker headings */
+  margin-bottom: 20px;
+}
+
+.input-group .form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+}
+
+.input-group .form-control:focus {
+  border-color: #64B5F6;
+  box-shadow: 0 0 0 0.25rem rgba(100, 181, 246, 0.25);
+}
